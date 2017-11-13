@@ -46,6 +46,10 @@ input, textarea, select {
 	border-radius: 1em;
 	
 }
+
+.text {
+	color: red;
+}
  
 
 
