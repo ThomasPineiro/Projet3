@@ -36,13 +36,14 @@ input, textarea, select {
     padding-left: 90px;
 }
 
-/* Bandeau Dépêche */
+/* Bandeau type Dépêche */
 
 .bandeau {
 	font: arial;
 	text-align: center;
 	background-color: red;
 	color: white;
+	border-radius: 1em;
 	
 }
  
