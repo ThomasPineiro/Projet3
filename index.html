@@ -30,15 +30,19 @@
 <!-- Formulaire -->
 
 <form action="/ma-page-de-traitement" method="post">
+	
+	<div class="bandeau"><h2>PUBLICATION</h2></div>
+	
     <div>
         <label for="nom">Titre</label>
         <input type="text" id="nom" />
     </div>
+    
     <!-- Menu déroulant -->
     <div>
 	<label for="nom">Genre</label>
     <SELECT name="nom" size="1" >
-	<OPTION>Thème de la vidéo à télécharger
+	<OPTION>Précisez le thème de la vidéo
     <OPTION>Actualité
     <OPTION>Cuisine
     <OPTION>Sports
@@ -63,7 +67,7 @@
     </div>
     <div>
         <label for="nom">URL vidéo</label>
-        <input type="text" id="lien_video" />
+        <input type="url" id="lien_video" />
     </div>
     
     <div class="button">

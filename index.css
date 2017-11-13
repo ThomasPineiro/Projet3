@@ -23,7 +23,7 @@ label {
     text-align: left;
 }
 
-input, textarea {
+input, textarea, select {
     font: 1em sans-serif;
     width: 300px;
     -moz-box-sizing: border-box;
@@ -36,7 +36,15 @@ input, textarea {
     padding-left: 90px;
 }
 
-/* Menu déroulant */
+/* Bandeau Dépêche */
+
+.bandeau {
+	font: arial;
+	text-align: center;
+	background-color: red;
+	color: white;
+	
+}
  
 
 
