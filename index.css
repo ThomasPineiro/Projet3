@@ -9,7 +9,7 @@ form {
     margin: 0 auto;
     width: 400px;
     padding: 1em;
-    border: 1px solid red;
+    border: 1px solid #e3001b;
     border-radius: 1em;
 }
 
@@ -41,14 +41,14 @@ input, textarea, select {
 .bandeau {
 	font: arial;
 	text-align: center;
-	background-color: red;
+	background-color: #e3001b;
 	color: white;
 	border-radius: 1em;
 	
 }
 
 .text {
-	color: red;
+	color: #e3001b;
 }
  
 
