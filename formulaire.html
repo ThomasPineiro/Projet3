@@ -3,83 +3,83 @@
 -->
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-	<title>Formulaire</title>
-	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-	<link rel="Stylesheet" type="text/css" href="index.css"/>
+    <title>Formulaire</title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <link rel="Stylesheet" type="text/css" href="index.css"/>
 </head>
 
 <body>
-	
-	<form class="box" action="cible.php" method="post">
-	
-	<div><h2 align="center">PUBLICATION DES VIDEOS</h2></div>
-	
-	<div class="text">La vidéo :</color></div>
-	
+    
+    <form class="box" action="cible.php" method="post">
+    
+    <div><h2 align="center">PUBLICATION DES VIDEOS</h2></div>
+    
+    <div class="text">La vidéo :</color></div>
+    
     <div>
         <label for="nom">Titre</label>
-        <input type="text" id="nom" />
+        <input type="text" id="video_titre" name="video_titre" />
     </div>
     
     <!-- Menu déroulant -->
     <div>
-	<label for="nom">Genre</label>
-    <SELECT name="nom" size="1" >
-	<OPTION>Précisez le thème de la vidéo
-    <OPTION>Actualité
-    <OPTION>Cuisine
-    <OPTION>Sports
-    <OPTION>Economie
-    <OPTION>Culture
-    <OPTION>Humour
-    <OPTION>Jeux
-    <OPTION>Autre...
+    <label for="nom">Genre</label>
+    <SELECT name="theme_nom" size="1" >
+    <OPTION>Précisez le thème de la vidéo
+    <OPTION value="theme1">Actualité
+    <OPTION value="theme2">Cuisine
+    <OPTION value="theme3">Sports
+    <OPTION value="theme4">Economie
+    <OPTION value="theme5">Culture
+    <OPTION value="theme6">Humour
+    <OPTION value="theme7">Jeux
+    <OPTION value="theme8">Autre...
     </SELECT>
-	</div>
-	
-	<div>
+    </div>
+    
+    <div>
         <label for="nom">URL vidéo</label>
         <input type="url" id="lien_video" />
     </div>
      <div class="text">Vos coordonnées :</div>
-	
+    
     <div>
         <label for="nom">Nom</label>
-        <input type="text" id="nom" />
+        <input type="text" id="auteur_nom" name="auteur_nom" />
     </div>
     <div>
         <label for="nom">Prénom</label>
-        <input type="text" id="nom" />
+        <input type="text" id="auteur_prenom" name="auteur_prenom" />
     </div>
     <div>
         <label for="nom">Pseudo</label>
-        <input type="text" id="nom" />
+        <input type="text" id="auteur_pseudo" name="auteur_pseudo" />
     </div>
     
     <br>
     
     <table>
-		<tr>
-			<td>
+        <tr>
+            <td>
         <button type="submit">Validez</button>
-			</td>
-			<td></td>
-			<td>
-		<button type="submit" onClick="window.close()">Annuler</button>
-			</td>
-		</tr>
+            </td>
+            <td></td>
+            <td>
+        <button type="submit" onClick="window.close()">Annuler</button>
+            </td>
+        </tr>
     </table>
-		
+        
     <!-- Date -->
     
     <div> <script> var now = new Date(); </script></div>
     
 </form>
-	
+    
 </body>
 
 </html>
