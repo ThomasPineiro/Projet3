@@ -17,74 +17,133 @@
 	
 <!-- Header -->
 
-	<!-- Logo recherche connexion abonnement -->
-	
-	
-	
-	<!-- Navigation A  et liens réseaux sociaux -->
-	
-	<!-- Navigation B -->
-	
-<!-- Corps de page -->
+<div>
+	<table class="header">
+	   <tr>
+		   <!-- logo -->
+		  <td width="33%">
+				<h1><i>LA VIDEO</i>.fr</h1>
+			</td>
+			<!-- bouton Recherche -->
+		  <td width="33%">
+				<form action="/search" id="searchthis" method="get">
+				<input id="search" name="q" type="text" placeholder="Saisissez votre recherche" /><br>
+				<input id="search-btn" type="submit" value="Lancer la recherche" />
+				</form>
+		<!-- bouton affichez vidéo -->
+		</td>
+		  <td width="33%">
+			  <a href="formulaire.html" target="popup" onclick="window.open('formulaire.html','popup','width=480px,height=480px,left=270px,top=270px,scrollbars=1');return(false)">
+				  <input class="boutonV" type="button" value="Téléchargez les vidéos"></a>
+		</td>
+	   </tr>
 
-<!-- Formulaire -->
+	</table>
+</div>
 
-<form action="cible.php" method="post">
 	
-	<div class="bandeau"><h2>PUBLICATION</h2></div>
+<!-- Corps de page vidéos stockées-->
+
+<table>
+		<tr>
+			<td>
+				<figure>
+					<video src="Petit Biscuit - Wake Up.mp4" controls poster="Petit-Biscuit01.jpeg" width="350">
+					</video>
+			<!--légende vidéo-->
+					<figcaption><center>titre, theme, date</center></figcaption>
+			<!--fin légende vidéo-->
+				</figure>
+			</td>
+
+			<td>
+				<figure>
+					<video src="Petit Biscuit - Wake Up.mp4" controls poster="Petit-Biscuit01.jpeg" width="350">
+					</video>
+			<!--légende vidéo-->
+					<figcaption><center>titre, theme, date</center></figcaption>
+			<!--fin légende vidéo-->
+				</figure>
+			</td>
+
+			<td>
+				<figure>
+					<video src="Petit Biscuit - Wake Up.mp4" controls poster="Petit-Biscuit01.jpeg" width="350">
+					</video>
+			<!--légende vidéo-->
+					<figcaption><center>titre, theme, date</center></figcaption>
+			<!--fin légende vidéo-->
+				</figure>
+			</td>
+			</tr>
+
+		<tr>
+			<td>
+				<figure>
+					<video src="Petit Biscuit - Wake Up.mp4" controls poster="Petit-Biscuit01.jpeg" width="350">
+					</video>
+			<!--légende vidéo-->
+					<figcaption><center>titre, theme, date</center></figcaption>
+			<!--fin légende vidéo-->
+				</figure>
+			</td>
+
+			<td>
+				<figure>
+					<video src="Petit Biscuit - Wake Up.mp4" controls poster="Petit-Biscuit01.jpeg" width="350">
+					</video>
+			<!--légende vidéo-->
+					<figcaption><center>titre, theme, date</center></figcaption>
+			<!--fin légende vidéo-->
+				</figure>
+			</td>
+
+			<td>
+				<figure>
+					<video src="Petit Biscuit - Wake Up.mp4" controls poster="Petit-Biscuit01.jpeg" width="350">
+						</video>
+			<!--légende vidéo-->
+					<figcaption><center>titre, theme, date</center></figcaption>
+			<!--fin légende vidéo-->
+				</figure>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<figure>
+					<video src="Petit Biscuit - Wake Up.mp4" controls poster="Petit-Biscuit01.jpeg" width="350">
+					</video>
+			<!--légende vidéo-->
+					<figcaption><center>titre, theme, date</center></figcaption>
+			<!--fin légende vidéo-->
+				</figure>
+			</td>
+
+			<td>
+				<figure>
+					<video src="Petit Biscuit - Wake Up.mp4" controls poster="Petit-Biscuit01.jpeg" width="350">
+					</video>
+					<!--légende vidéo-->
+					<figcaption><center>titre, theme, date</center></figcaption>
+			<!--fin légende vidéo-->
+				</figure>
+			</td>
+
+			<td>
+				<figure>
+					<video src="Petit Biscuit - Wake Up.mp4" controls poster="Petit-Biscuit01.jpeg" width="350">
+					</video>
+			<!--légende vidéo-->
+					<figcaption><center>titre, theme, date</center></figcaption>
+			<!--fin légende vidéo-->
+				</figure>
+			</td>
+		</tr>
+
+			
+	</table>
 	
-	<div class="text">La vidéo :</color></div>
-	
-    <div>
-        <label for="nom">Titre</label>
-        <input type="text" id="nom" />
-    </div>
-    
-    <!-- Menu déroulant -->
-    <div>
-	<label for="nom">Genre</label>
-    <SELECT name="nom" size="1" >
-	<OPTION>Précisez le thème de la vidéo
-    <OPTION>Actualité
-    <OPTION>Cuisine
-    <OPTION>Sports
-    <OPTION>Economie
-    <OPTION>Culture
-    <OPTION>Humour
-    <OPTION>Jeux
-    <OPTION>Autre...
-    </SELECT>
-	</div>
-	
-	<div>
-        <label for="nom">URL vidéo</label>
-        <input type="url" id="lien_video" />
-    </div>
-    
-    <div class="text">Vos coordonnées :</div>
-	
-    <div>
-        <label for="nom">Nom</label>
-        <input type="text" id="nom" />
-    </div>
-    <div>
-        <label for="nom">Prénom</label>
-        <input type="text" id="nom" />
-    </div>
-    <div>
-        <label for="nom">Pseudo</label>
-        <input type="text" id="nom" />
-    </div>
-    
-    <div class="button">
-        <button type="submit">Validez</button>
-    </div>
-    
-    <!-- Date -->
-    
-    <div> <script> var now = new Date(); </script></div>
-    
-</form>
 
 <!-- Footer -->
 	
